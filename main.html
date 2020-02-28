@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>버튼테스트</title>
+    <style>
+      div {
+        text-align: center;
+        border: 3px solid black;
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>You can Change Back Ground Color
+    <input type="button" value="Black" onclick="document.querySelector('div.main').style.backgroundColor='black';">
+    <input type="button" value="Gray" onclick="document.querySelector('div.main').style.backgroundColor='gray';">
+    <input type="button" value="White" onclick="document.querySelector('div.main').style.backgroundColor='white';">
+    </div>
+    <div>You can Change Text Color
+    <input type="button" value="Red" onclick="document.querySelector('div.main').style.color='red';">
+    <input type="button" value="Blue" onclick="document.querySelector('div.main').style.color='blue';">
+    <input type="button" value="Yellow" onclick="document.querySelector('div.main').style.color='yellow';">
+    </div><br>
+    <div class="main" style="border: 3px solid black; background-Color:white; color:black; text-align:justify;;">
+      TEXT FORMATTING<br>
+This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored "Try it Yourself" link.
+    </div>
+  </body>
+
+</html>
